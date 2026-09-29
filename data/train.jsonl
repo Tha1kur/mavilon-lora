@@ -1,0 +1,85 @@
+{"input": "Fix grammar: he go to school everyday.", "output": "He goes to school every day."}
+{"input": "Write a polite email asking for a meeting tomorrow.", "output": "Hello, could we meet tomorrow at 3 PM?"}
+{"input": "Given list [1,2,3], return its sum.", "output": "6"}
+{"input": "Write a polite email asking for a meeting tomorrow. (brief)", "output": "Hello, could we meet tomorrow at 3 PM?"}
+{"input": "Q: What is 7 * 8?", "output": "56"}
+{"input": "Translate to Hindi: How are you? (brief)", "output": "कैसे हो?"}
+{"input": "Explain simply: What is machine learning?", "output": "Machine learning means computers learn patterns from data."}
+{"input": "Write a polite email asking for a meeting tomorrow.", "output": "Hello, could we meet tomorrow at 3 PM?"}
+{"input": "Create a 3-step plan to study. (brief)", "output": "1) Make schedule\n2) Practice\n3) Revise"}
+{"input": "Given list [1,2,3], return its sum.", "output": "6"}
+{"input": "Benefits of exercise?", "output": "- Better health\n- More energy\n- Strong muscles"}
+{"input": "Translate to Hindi: How are you?", "output": "कैसे हो?"}
+{"input": "Benefits of exercise?", "output": "- Better health\n- More energy\n- Strong muscles"}
+{"input": "Who wrote Hamlet?", "output": "William Shakespeare"}
+{"input": "Q: What is 7 * 8? (brief)", "output": "56"}
+{"input": "Write a polite email asking for a meeting tomorrow. (brief)", "output": "Hello, could we meet tomorrow at 3 PM?"}
+{"input": "Write a polite email asking for a meeting tomorrow.", "output": "Hello, could we meet tomorrow at 3 PM?"}
+{"input": "Create a 3-step plan to study. (brief)", "output": "1) Make schedule\n2) Practice\n3) Revise"}
+{"input": "Who wrote Hamlet?", "output": "William Shakespeare"}
+{"input": "Fix grammar: he go to school everyday. (brief)", "output": "He goes to school every day."}
+{"input": "Given list [1,2,3], return its sum.", "output": "6"}
+{"input": "Benefits of exercise?", "output": "- Better health\n- More energy\n- Strong muscles"}
+{"input": "Create a 3-step plan to study. (brief)", "output": "1) Make schedule\n2) Practice\n3) Revise"}
+{"input": "Benefits of exercise? (brief)", "output": "- Better health\n- More energy\n- Strong muscles"}
+{"input": "Summarize: The cat sat on the mat.", "output": "A cat sat on a mat."}
+{"input": "Create a 3-step plan to study.", "output": "1) Make schedule\n2) Practice\n3) Revise"}
+{"input": "Summarize: The cat sat on the mat. (brief)", "output": "A cat sat on a mat."}
+{"input": "Translate to Hindi: How are you? (brief)", "output": "कैसे हो?"}
+{"input": "Q: What is 7 * 8? (brief)", "output": "56"}
+{"input": "Summarize: The cat sat on the mat.", "output": "A cat sat on a mat."}
+{"input": "Q: What is 7 * 8? (brief)", "output": "56"}
+{"input": "Fix grammar: he go to school everyday.", "output": "He goes to school every day."}
+{"input": "Fix grammar: he go to school everyday.", "output": "He goes to school every day."}
+{"input": "Translate to Hindi: How are you?", "output": "कैसे हो?"}
+{"input": "Fix grammar: he go to school everyday.", "output": "He goes to school every day."}
+{"input": "Who wrote Hamlet?", "output": "William Shakespeare"}
+{"input": "Translate to Hindi: How are you? (brief)", "output": "कैसे हो?"}
+{"input": "Given list [1,2,3], return its sum.", "output": "6"}
+{"input": "Create a 3-step plan to study.", "output": "1) Make schedule\n2) Practice\n3) Revise"}
+{"input": "Q: What is 7 * 8? (brief)", "output": "56"}
+{"input": "Who wrote Hamlet?", "output": "William Shakespeare"}
+{"input": "Who wrote Hamlet? (brief)", "output": "William Shakespeare"}
+{"input": "Given list [1,2,3], return its sum. (brief)", "output": "6"}
+{"input": "Write a polite email asking for a meeting tomorrow.", "output": "Hello, could we meet tomorrow at 3 PM?"}
+{"input": "Q: What is 7 * 8?", "output": "56"}
+{"input": "Summarize: The cat sat on the mat. (brief)", "output": "A cat sat on a mat."}
+{"input": "Explain simply: What is machine learning?", "output": "Machine learning means computers learn patterns from data."}
+{"input": "Given list [1,2,3], return its sum.", "output": "6"}
+{"input": "Explain simply: What is machine learning?", "output": "Machine learning means computers learn patterns from data."}
+{"input": "Translate to Hindi: How are you? (brief)", "output": "कैसे हो?"}
+{"input": "Fix grammar: he go to school everyday.", "output": "He goes to school every day."}
+{"input": "Summarize: The cat sat on the mat.", "output": "A cat sat on a mat."}
+{"input": "Summarize: The cat sat on the mat.", "output": "A cat sat on a mat."}
+{"input": "Create a 3-step plan to study.", "output": "1) Make schedule\n2) Practice\n3) Revise"}
+{"input": "Q: What is 7 * 8? (brief)", "output": "56"}
+{"input": "Translate to Hindi: How are you?", "output": "कैसे हो?"}
+{"input": "Benefits of exercise?", "output": "- Better health\n- More energy\n- Strong muscles"}
+{"input": "Create a 3-step plan to study.", "output": "1) Make schedule\n2) Practice\n3) Revise"}
+{"input": "Given list [1,2,3], return its sum.", "output": "6"}
+{"input": "Fix grammar: he go to school everyday. (brief)", "output": "He goes to school every day."}
+{"input": "Summarize: The cat sat on the mat. (brief)", "output": "A cat sat on a mat."}
+{"input": "Explain simply: What is machine learning? (brief)", "output": "Machine learning means computers learn patterns from data."}
+{"input": "Summarize: The cat sat on the mat.", "output": "A cat sat on a mat."}
+{"input": "Q: What is 7 * 8?", "output": "56"}
+{"input": "Given list [1,2,3], return its sum.", "output": "6"}
+{"input": "Write a polite email asking for a meeting tomorrow. (brief)", "output": "Hello, could we meet tomorrow at 3 PM?"}
+{"input": "Translate to Hindi: How are you?", "output": "कैसे हो?"}
+{"input": "Explain simply: What is machine learning?", "output": "Machine learning means computers learn patterns from data."}
+{"input": "Fix grammar: he go to school everyday. (brief)", "output": "He goes to school every day."}
+{"input": "Who wrote Hamlet? (brief)", "output": "William Shakespeare"}
+{"input": "Who wrote Hamlet?", "output": "William Shakespeare"}
+{"input": "Create a 3-step plan to study.", "output": "1) Make schedule\n2) Practice\n3) Revise"}
+{"input": "Benefits of exercise?", "output": "- Better health\n- More energy\n- Strong muscles"}
+{"input": "Benefits of exercise? (brief)", "output": "- Better health\n- More energy\n- Strong muscles"}
+{"input": "Explain simply: What is machine learning?", "output": "Machine learning means computers learn patterns from data."}
+{"input": "Write a polite email asking for a meeting tomorrow. (brief)", "output": "Hello, could we meet tomorrow at 3 PM?"}
+{"input": "Create a 3-step plan to study.", "output": "1) Make schedule\n2) Practice\n3) Revise"}
+{"input": "Given list [1,2,3], return its sum.", "output": "6"}
+{"input": "Q: What is 7 * 8?", "output": "56"}
+{"input": "Explain simply: What is machine learning? (brief)", "output": "Machine learning means computers learn patterns from data."}
+{"input": "Summarize: The cat sat on the mat.", "output": "A cat sat on a mat."}
+{"input": "Explain simply: What is machine learning? (brief)", "output": "Machine learning means computers learn patterns from data."}
+{"input": "Benefits of exercise?", "output": "- Better health\n- More energy\n- Strong muscles"}
+{"input": "Create a 3-step plan to study.", "output": "1) Make schedule\n2) Practice\n3) Revise"}
+{"input": "Summarize: The cat sat on the mat.", "output": "A cat sat on a mat."}

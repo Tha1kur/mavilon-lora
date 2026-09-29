@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Mavilon Chat</title>
+  <style>
+    body { font-family: system-ui, Arial; max-width:800px; margin:30px auto; }
+    .chat { border:1px solid #ddd; padding:12px; height:60vh; overflow:auto; background:#fafafa; }
+    .message { margin:8px 0; }
+    .user { text-align:right; }
+    .bot { text-align:left; color:#111; }
+    .input { margin-top:12px; display:flex; gap:8px; }
+    textarea { flex:1; height:70px; padding:8px; font-size:14px; }
+    button { padding:10px 14px; }
+    .meta { font-size:12px; color:#666; margin-bottom:6px; }
+  </style>
+</head>
+<body>
+  <h2>Mavilon — local chat</h2>
+  <div class="meta">Server: <strong>http://localhost:8000</strong> • UI: <strong>http://localhost:8001</strong></div>
+  <div id="chat" class="chat"></div>
+  <div class="input">
+    <textarea id="prompt" placeholder="Type your message..."></textarea>
+    <div style="display:flex;flex-direction:column;">
+      <button id="send">Send</button>
+      <button id="clear" style="margin-top:6px">Clear</button>
+    </div>
+  </div>
+
+<script>
+const chat = document.getElementById('chat');
+const promptBox = document.getElementById('prompt');
+
+function append(role, text) {
+  const el = document.createElement('div');
+  el.className = 'message ' + (role === 'user' ? 'user' : 'bot');
+  el.innerHTML = `<strong>${role === 'user' ? 'You' : 'Mavilon'}:</strong> ${text}`;
+  chat.appendChild(el);
+  chat.scrollTop = chat.scrollHeight;
+}
+
+document.getElementById('send').onclick = async () => {
+  const prompt = promptBox.value.trim();
+  if (!prompt) return;
+  append('user', prompt);
+  promptBox.value = '';
+  append('bot', '…thinking…');
+
+  try {
+    const res = await fetch('http://localhost:8000/generate', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({ prompt, max_new_tokens:128, do_sample:false, num_beams:4 })
+    });
+    const data = await res.json();
+    const nodes = chat.querySelectorAll('.bot');
+    if (nodes.length) nodes[nodes.length-1].remove();
+    if (data.reply) append('bot', data.reply);
+    else append('bot', JSON.stringify(data));
+  } catch (e) {
+    append('bot', 'Error: ' + e.toString());
+  }
+};
+
+document.getElementById('clear').onclick = () => {
+  chat.innerHTML = '';
+};
+</script>
+</body>
+</html>

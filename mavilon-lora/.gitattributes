@@ -1,0 +1,4 @@
+# Small packaged artifacts use ordinary Git; preserve exact binary bytes.
+*.safetensors -text
+*.model -text
+*.bin -text
